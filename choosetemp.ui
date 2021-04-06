@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chooseTemp</class>
+ <widget class="QWidget" name="chooseTemp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+background-image: url(:/TempButton.png);
+border:none;
+
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>180°C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>110</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+background-image: url(:/TempButton.png);
+border:none;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>200°C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>110</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+background-image: url(:/TempButton.png);
+border:none;
+background-color: rgba(255, 255, 255, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>220°C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>410</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+background-image: url(:/TempButton.png);
+border:none;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>240°C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>410</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+background-image: url(:/TempButton.png);
+border:none;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>260°C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>110</y>
+     <width>180</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;color: rgb(185, 185, 185);
+font-size: 64px;
+text-align: center;
+font-family: Barlow;
+image: url(:/TempOffButton.png);
+border:none;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>OFF</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(32, 32, 35, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

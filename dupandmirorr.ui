@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DupandMirorr</class>
+ <widget class="QWidget" name="DupandMirorr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>152</y>
+     <width>1008</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;border-radius: 20px;
+background-color: rgba(255, 99, 11, 255);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(255, 99, 11, 255);</string>
+   </property>
+   <property name="text">
+    <string>Print direct</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>570</y>
+     <width>1008</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;
+font-family:Barlow;
+border-radius: 20px;
+background-color: rgba(255, 99, 11, 255);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(255, 99, 11, 255);</string>
+   </property>
+   <property name="text">
+    <string>Cancle</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>290</y>
+     <width>1008</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;border-radius: 20px;
+background-color: rgba(255, 99, 11, 255);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(255, 99, 11, 255);</string>
+   </property>
+   <property name="text">
+    <string>Duplicate mode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(45, 44, 43, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>1201</width>
+     <height>136</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;background-color: rgba(45, 44, 43, 0);
+
+font-family:Barlow;
+color: rgb(255, 255, 255);
+font-size: 48px;
+</string>
+   </property>
+   <property name="text">
+    <string>Please select mode:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>430</y>
+     <width>1008</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;
+font-family:Barlow;
+border-radius: 20px;
+background-color: rgba(255, 99, 11, 255);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(255, 99, 11, 255);</string>
+   </property>
+   <property name="text">
+    <string>Mirror mode</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

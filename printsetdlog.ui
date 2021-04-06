@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PrintSetDlog</class>
+ <widget class="QWidget" name="PrintSetDlog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font-weight: bold;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(32, 32, 35);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>894</x>
+     <y>601</y>
+     <width>329</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(255, 99, 11, 255);
+	border-radius: 20px;
+	outline:none;
+	font-weight:bold;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(255, 99, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>Complete</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>898</x>
+     <y>20</y>
+     <width>322</width>
+     <height>268</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+	font-weight:bold;
+image: url(:/Path Copy.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>898</x>
+     <y>308</y>
+     <width>322</width>
+     <height>268</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	font-size: 28px;
+image: url(:/Path.png);
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+	font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>20</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Left Temp / 220°C</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>20</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Right Temp / 220°C</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>136</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Left Fan Speed 100%</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>469</x>
+     <y>136</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Right Fan Speed 100%</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>253</y>
+     <width>824</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Bed Temp 90°C</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>369</y>
+     <width>824</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Feedrate 100%</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>484</y>
+     <width>824</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Platform Height 0.3mm</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>599</y>
+     <width>824</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:unchecked {
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+}
+QPushButton:checked {
+	color: rgba(255, 255, 255, 255);
+	background-color: rgb(255, 99, 11);
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+}
+QPushButton{
+	font-size: 28px;
+	font-family: Barlow;
+	border: 2px solid rgba(45, 44, 43, 255);
+	border-radius: 20px;
+	outline:none;
+	color: rgb(255, 255, 255);	
+	background-color: rgb(45, 44, 43);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Active Back Up Mode</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chooseFile</class>
+ <widget class="QWidget" name="chooseFile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 255, 255, 200);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>109</y>
+     <width>900</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 30px;
+background-color: rgba(45, 44, 43, 255);
+text-align: center;
+font-family:Barlow;
+border: 2px solid rgba(45, 44, 43, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>260</y>
+     <width>821</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;background-color: rgba(45, 44, 43, 255);
+text-align: center;
+font-family:Barlow;
+color: rgb(255, 255, 255);
+border: 2px solid rgba(45, 44, 43, 255);
+font-size: 36px;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Accordion 1.gcode ?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>642</x>
+     <y>500</y>
+     <width>411</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;border-radius: 20px;
+background-color: rgb(255, 99, 11);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(255, 99, 11, 255);
+outline:none;</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>222</x>
+     <y>500</y>
+     <width>401</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;border-radius: 20px;
+background-color: rgba(67, 67, 67, 255);
+color: rgba(255, 255, 255, 255);
+font-size: 36px;
+text-align: center;
+font-family: Barlow;
+border: 2px solid rgba(67, 67, 67, 255);
+outline:none;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(32, 32, 31, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>170</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight: bold;font-family:Barlow;background-color: rgba(45, 44, 43, 255);
+text-align: center;
+font-family:Barlow;
+color: rgb(255, 255, 255);
+border: 2px solid rgba(45, 44, 43, 255);
+font-size: 36px;
+</string>
+   </property>
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
